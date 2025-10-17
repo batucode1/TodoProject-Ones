@@ -32,8 +32,8 @@ Proje, sorumlulukların net bir şekilde ayrıldığı katmanlı bir yapıya sah
     -   **Services:** AuthService ve FirebaseSyncManager gibi Firebase ile iletişimi yöneten ve arka plan işlemlerini yürüten servisleri içerir.
 
 -   **Shared Katmanı:** Birden fazla özellikte kullanılan, yeniden kullanılabilir bileşenleri ve yardımcı kodları barındırır.
-    -   **UI:** `CustomTextField` gibi genel UI bileşenleri burada toplanmıştır.
-    -   **Extensions:** `String` gibi mevcut türlere eklenen yardımcı fonksiyonlar burada yer alır.
+    -   **UI:** CustomTextField gibi genel UI bileşenleri burada toplanmıştır.
+    -   **Extensions:** String gibi mevcut türlere eklenen yardımcı fonksiyonlar burada yer alır.
  
 
    ## Geliştirici
