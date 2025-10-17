@@ -23,17 +23,17 @@ Proje, modern iOS geliştirme pratikleri göz önünde bulundurularak **Özellik
 
 Proje, sorumlulukların net bir şekilde ayrıldığı katmanlı bir yapıya sahiptir:
 
--   **`Application` Katmanı:** Uygulamanın yaşam döngüsünü (`App`, `AppDelegate`), genel oturum durumunu (`Session`) ve ilk yönlendirme mantığını (`RootView`) içerir. Projenin başlangıç ve ana yapılandırma merkezidir.
+-   **Application Katmanı:** Uygulamanın yaşam döngüsünü (App, AppDelegate), genel oturum durumunu (Session) ve ilk yönlendirme mantığını (RootView) içerir. Projenin başlangıç ve ana yapılandırma merkezidir.
 
--   **`Features` Katmanı:** Uygulamanın ana işlevsel modüllerini barındırır. Her özellik (örneğin `Onboarding`, `Authentication`, `Notes`) kendi klasörü içinde, kendine ait View'ları ve mantığıyla birlikte bulunur. Bu, projenin ölçeklenmesini kolaylaştırır.
+-   **Features Katmanı:** Uygulamanın ana işlevsel modüllerini barındırır. Her özellik (örneğin Onboarding, Authentication, Notes) kendi klasörü içinde, kendine ait View'ları ve mantığıyla birlikte bulunur. Bu, projenin ölçeklenmesini kolaylaştırır.
 
--   **`Core` Katmanı:** Uygulamanın merkezi iş mantığını ve altyapısını içerir.
-    -   **`Data`:** SwiftData ile tanımlanmış veri modellerini (`AppUser`, `Note`) barındırır.
-    -   **`Services`:** `AuthService` ve `FirebaseSyncManager` gibi Firebase ile iletişimi yöneten ve arka plan işlemlerini yürüten servisleri içerir.
+-   **Core Katmanı:** Uygulamanın merkezi iş mantığını ve altyapısını içerir.
+    -   **Data:** SwiftData ile tanımlanmış veri modellerini (AppUser, Note) barındırır.
+    -   **Services:** AuthService ve FirebaseSyncManager gibi Firebase ile iletişimi yöneten ve arka plan işlemlerini yürüten servisleri içerir.
 
--   **`Shared` Katmanı:** Birden fazla özellikte kullanılan, yeniden kullanılabilir bileşenleri ve yardımcı kodları barındırır.
-    -   **`UI`:** `CustomTextField` gibi genel UI bileşenleri burada toplanmıştır.
-    -   **`Extensions`:** `String` gibi mevcut türlere eklenen yardımcı fonksiyonlar burada yer alır.
+-   **Shared Katmanı:** Birden fazla özellikte kullanılan, yeniden kullanılabilir bileşenleri ve yardımcı kodları barındırır.
+    -   **UI:** `CustomTextField` gibi genel UI bileşenleri burada toplanmıştır.
+    -   **Extensions:** `String` gibi mevcut türlere eklenen yardımcı fonksiyonlar burada yer alır.
  
 
    ## Geliştirici
