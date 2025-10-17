@@ -4,6 +4,7 @@
 
 <img width="1619" height="1730" alt="todo mockup" src="https://github.com/user-attachments/assets/7a523246-3db3-4d9a-87b1-5bc3627d2949" />
 
+## Temel Özellikler
 -   **Firebase ile Güvenli Kimlik Doğrulama:** E-posta ve şifre ile kullanıcı kaydı ve girişi.
 -   **Çevrimdışı Öncelikli Çalışma:** SwiftData sayesinde internet bağlantısı olmadan tüm not işlemlerini (oluşturma, düzenleme, silme) sorunsuzca gerçekleştirebilme.
 -   **Anlık Bulut Senkronizasyonu:** Firestore veritabanı ile tüm verilerin, bağlantı kurulduğu an bulutla otomatik olarak senkronize edilmesi.
