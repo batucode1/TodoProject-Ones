@@ -2,7 +2,7 @@
 
 # Notely: iOS Not Uygulaması
 
-<img width="1619" height="1730" alt="todo mockup" src="https://github.com/user-attachments/assets/7a523246-3db3-4d9a-87b1-5bc3627d2949" />
+<img width="1619" height="1730" alt="todo mockup" src="https://github.com/user-attachments/assets/73278c2b-037d-49bf-a7c6-55353c0224de" />
 
 ## Temel Özellikler
 -   **Firebase ile Güvenli Kimlik Doğrulama:** E-posta ve şifre ile kullanıcı kaydı ve girişi.
